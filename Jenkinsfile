@@ -5,7 +5,7 @@ pipeline {
         SSH_KEY     = credentials('DO_SSH_KEY')
         DO_HOST     = credentials('DO_HOST')
         DO_USER     = credentials('DO_USER')
-        REMOTE_DIR  = '/www/wwwroot/CITSNVN/hrmcrashcourse/frontend'
+        REMOTE_DIR  = '/www/wwwroot/CITSNVN/hrmcrashcourse/frontend/'
         NODE_VERSION = '22.14.0'
         PORT        = '3087'
         NVM_DIR     = "${WORKSPACE}/.nvm"
