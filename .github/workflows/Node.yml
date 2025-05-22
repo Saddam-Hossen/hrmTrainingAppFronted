@@ -3,8 +3,8 @@ name: React CI + Deploy With RollBack
 on:
   push:
     branches:
-      - main
-      - master
+      - nvn
+      
      
 
 jobs:
